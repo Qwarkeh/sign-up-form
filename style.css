@@ -1,3 +1,34 @@
 body {
     background-color: lightgray;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    display: flex;
+}
+
+form {
+    display: flex;
+}
+
+.first-name,
+.user-email,
+.user-password,
+.last-name,
+.phone,
+.user-password-confirm{
+    display: flex;
+    flex-direction: column;
+}
+
