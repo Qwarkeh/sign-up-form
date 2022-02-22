@@ -31,41 +31,45 @@
                 <h3>Sign up now!</h3>
 
                 <form action="#" method="post">
-                    <div class="form-left">
-                        <div class="first-name">
-                            <label for="firstName">FIRST NAME</label>
-                            <input type="text" id="firstName" placeholder="Smokey">
-                        </div>
-                        <div class="user-email">
-                            <label for="email">EMAIL</label>
-                            <input type="text" name="email" id="email" placeholder="example@email.com">
-                        </div>
-                        <div class="user-password">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="" id="password">
-                        </div>
-                    </div>
 
-                    <div class="form-right">
-                        <div class="last-name">
-                            <label for="lastName">LAST NAME</label>
-                            <input type="text" id="lastName" placeholder="Bear">
+                    <div class="form-fields">
+                        <div class="form-left">
+                            <div class="first-name">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" placeholder="Smokey" minlength="3" max="50">
+                            </div>
+                            <div class="user-email">
+                                <label for="email">EMAIL</label>
+                                <input type="text" name="email" id="email" placeholder="example@email.com">
+                            </div>
+                            <div class="user-password">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="" id="password">
+                            </div>
                         </div>
-                        <div class="user-email">
-                            <label for="user-phone">PHONE NUMBER</label>
-                            <input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx">
+
+                        <div class="form-right">
+                            <div class="last-name">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" placeholder="Bear">
+                            </div>
+                            <div class="user-email">
+                                <label for="user-phone">PHONE NUMBER</label>
+                                <input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx">
+                            </div>
+                            <div class="user-password-confirm">
+                                <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                                <input type="password" name="" id="passwordConfirm">
+                            </div>
+                            
                         </div>
-                        <div class="user-password-confirm">
-                            <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                            <input type="password" name="" id="passwordConfirm">
-                        </div>
-                        
+
                     </div>
+                    <button type="submit">Create Account</button>
                 </form>
 
             </div>
 
-            <button type="submit">Create Account</button>
 
             <div class="login">Already have an account? <a href="#">Log in</a></div>
         </div>
