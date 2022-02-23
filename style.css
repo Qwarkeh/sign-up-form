@@ -3,6 +3,10 @@
     src: url(assets/font/Pinewood.ttf);
 }
 
+*:focus{
+ outline: none;
+}
+
 body {
     display: flex;
     height: 100vh;
@@ -118,8 +122,14 @@ button {
     border-radius: .7rem;
     color: rgb(255, 255, 255);
     background-color: rgb(34, 139, 34);
+    /*
     border-color: rgba(0, 0, 0, 0.487);
     border-width: 2px;
+    */
+}
+
+button:hover {
+    background-color: rgb(25, 102, 25);
 }
 
 .first-name,
@@ -147,4 +157,13 @@ form > div{
 .login a {
     color:rgb(34, 139, 34);
     text-decoration: none;
+}
+
+input {
+    border-color: #E5E7EB;
+}
+
+input:focus {
+    border-color: rgb(34, 139, 34);
+    box-shadow: 1px 1px 1px rgb(0, 255, 0);
 }
